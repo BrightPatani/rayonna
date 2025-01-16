@@ -1,8 +1,26 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.js"],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "nft-primary": "#1c293e",
+        "nft-secondary": "#529fd8",
+        "nft-text": "#9ff0fb",
+        "nft-hover": "#be65ab",
+      },
+    },
+    fontFamily: {
+      exo: ['Exo 2, serif'], 
+    },
+    container: {
+      padding: "2rem",
+      center: true,
+    },
+    screens:{
+      sm: "640px",
+      md: "768px",
+    },
   },
   plugins: [],
 }
