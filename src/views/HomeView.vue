@@ -14,7 +14,7 @@
    
       <section class="w-3/4 mx-auto py-12 px-5 md:px-10 lg:px-20 text-center bg-nft-secondary">
     <!-- Title -->
-    <h2 class="text-3xl font-bold text-nft-text">How to get started?</h2>
+    <h2 class="text-3xl font-bold text-nft-primary">How to get started?</h2>
     <div class="flex justify-center items-center wx-auto">
       <p class="text-nft-secondary mt-2 bg-nft-primary rounded-full font-bold px-4 py-2">Get on-the-go with NFT by doing the following</p>
     </div>
