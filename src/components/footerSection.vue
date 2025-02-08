@@ -1,10 +1,11 @@
 <template>
     <footer class="bg-gray-900 text-white py-12 px-6 md:px-16 lg:px-32">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="w-3/4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         
         <div>
-          <img src="./logo.webp" alt="Nft Logo" class="w-32 mb-4">
-          <p class="text-gray-400">
+          <h2 class="text-nft-text mr-3 text-3xl rounded-m font-extrabold">Rayonna<span class="text-nft-primary bg-nft-text rounded-full p-1">NFT</span></h2>
+          
+          <p class="text-gray-400 mt-5 border-t border-gray-700  text-center text-sm">
             Buy, sell, and explore the best NFTs. Join our growing community and start your digital journey today.
           </p>
         </div>
@@ -63,7 +64,6 @@
       </div>
     </footer>
   </template>
-  
+
   <script setup>
   </script>
-  
