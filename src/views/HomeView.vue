@@ -36,7 +36,7 @@
         </div>
 
         <!-- Step Title -->
-        <h3 class="text-nft-hover p-1 m- text-lg font-semibold mt-4">{{ step.title }}</h3>
+        <h3 class="text-nft-hover p-1 text-lg font-semibold mt-4">{{ step.title }}</h3>
 
         <!-- Step Description -->
         <p class="text-nft-text text-sm mt-2">{{ step.description }}</p>
