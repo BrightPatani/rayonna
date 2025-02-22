@@ -18,6 +18,7 @@
         </div>
       </div>
     </div>
+    
   </template>
   
   <script>
@@ -25,6 +26,7 @@
   import UserCard from '@/components/UserCard.vue';
   import Headers from '@/components/Headers.vue';
   import Notification from '@/components/Notification.vue';
+
 
   export default {
     components: {
@@ -40,14 +42,14 @@
             id: 1,
             name: 'Super Admin',
             bio: 'I am a Full-stack developer with 6 years+ experience in building scalable, user-friendly apps.',
-            verified: true,
+            verified: false,
             image: 'https://via.placeholder.com/100',
           },
           {
             id: 2,
             name: 'M. Forbes Peter’s',
             bio: 'Art enthusiasts',
-            verified: false,
+            verified: true,
             image: 'https://via.placeholder.com/100',
           },
           {

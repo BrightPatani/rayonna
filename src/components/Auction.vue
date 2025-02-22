@@ -11,7 +11,7 @@
       <div
         v-for="nft in nftItems"
         :key="nft.id"
-        class="bg-nft-primary p-5 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg hover:border-8 border-nft-hover">
+        class="bg-nft-primary p-5 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg hover:border-l-4 border-nft-hover">
         <!-- Owners Information -->
         <div class="flex items-center space-x-2 mb-3 text-nft-text">
           <img :src="nft.ownerAvatar" alt="Owner" class="w-8 h-8 rounded-full object-cover" />
@@ -29,7 +29,7 @@
         </div>
 
         <!-- Bid Button -->
-        <button class="bg-nft-text text-nft-primary border w-full py-2 mt-4 rounded-md transition-all duration-300 hover:text-nft-hover hover:bg-nft-primary border-nft-hover">
+        <button class="bg-nft-text text-nft-primary border w-full py-2 mt-4 rounded-md transition-all duration-300 hover:text-nft-hover hover:bg-nft-primary hover:border-2 border-nft-hover">
           Place a Bid
         </button>
       </div>

@@ -20,10 +20,10 @@
 
       <!-- Desktop Menu -->
       <ul class="hidden md:flex space-x-6 text-nft-text">
-        <li><router-link to="/" class="hover:text-nft-secondary transition">Home</router-link></li>
-        <li><a href="#" class="hover:text-nft-secondary transition">Explore</a></li>
-        <li><router-link to="/About" class="hover:text-nft-secondary transition">About Us</router-link></li>
-        <li><router-link to="/Community" class="hover:text-nft-secondary transition">Community</router-link></li>
+        <li><router-link to="/" class="hover:text-nft-hover transition">Home</router-link></li>
+        <li><a href="#" class="hover:text-nft-hover transition">Explore</a></li>
+        <li><router-link to="/About" class="hover:text-nft-hover transition">About Us</router-link></li>
+        <li><router-link to="/Community" class="hover:text-nft-hover transition">Community</router-link></li>
       </ul>
       <Buttons />
     </nav>
@@ -35,8 +35,9 @@
           <li><a href="#" class="block py-2 hover:text-nft-hover transition">Home</a></li>
           <li><a href="#" class="block py-2 hover:text-nft-hover transition">Explore</a></li>
           <li><router-link to="/About" class="block py-2 hover:text-nft-hover transition">About Us</router-link></li>
-          <li><router-link to="/Community" class="block py-2 hover:text-nft-hover transition">Community 1E765</router-link></li>
+          <li><router-link to="/Community" class="block py-2 hover:text-nft-hover transition">Community</router-link></li>
         </ul>
+        <Buttons />
       </div>
     </transition>
 

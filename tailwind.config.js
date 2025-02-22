@@ -4,10 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        "nft-primary": "#1c293e",
+        "nft-primary": "#131835",
         "nft-secondary": "#529fd8",
         "nft-text": "#9ff0fb",
         "nft-hover": "#be65ab",
+        "nft-backgroundlg": "#632451",
+        "nft-backgroundsm": "#110620",
       },
     },
     fontFamily: {
