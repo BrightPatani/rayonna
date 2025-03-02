@@ -26,10 +26,6 @@ body {
   @apply font-exo;
 }
 
-/* Button Styles */
-
-
-/* Text Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;

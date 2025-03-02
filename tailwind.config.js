@@ -13,7 +13,7 @@ export default {
       },
     },
     fontFamily: {
-      exo: ['Exo 2, serif'], 
+      exo: ['Exo 2', 'serif'], 
     },
     container: {
       padding: "2rem",

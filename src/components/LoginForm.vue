@@ -12,8 +12,8 @@
           <input
             id="email"
             type="email"
-            placeholder="JaneDoe@gmail.com"
-            class="mt-1 block w-full border-gray-300 rounded-md shadow-md shadow-nft-text focus:ring-indigo-500 focus:border-indigo-500 px-3 py-2"/>
+            placeholder="Enter Email Address"
+            class="mt-1 block w-full border-gray-300 rounded-md shadow-md shadow-nft-text focus:ring-nft-secondary focus:border-nft-secondary px-3 py-2"/>
         </div>
   
         <!-- Password Field -->
@@ -25,8 +25,8 @@
             <input
               id="password"
               type="password"
-              placeholder="********"
-              class="mt-1 block w-full border-gray-300 rounded-md shadow-md shadow-nft-text focus:ring-indigo-500 focus:border-indigo-500 px-3 py-2"
+              placeholder="Enter Password"
+              class="mt-1 block w-full border-gray-300 rounded-md shadow-md shadow-nft-text focus:ring-nft-secondary focus:border-nft-secondary px-3 py-2"
             />
             <span class="absolute inset-y-0 right-3 flex items-center cursor-pointer text-gray-500">
               &#x1F441;
